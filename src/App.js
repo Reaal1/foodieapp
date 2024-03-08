@@ -1,6 +1,7 @@
 import React from 'react';
 import  Navbar from './Navbar';
 import  Home from './Home';
+
 import  { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
       <Router>
       <Navbar/>
       <Home/>
+      
       </Router>
     </div>
   );

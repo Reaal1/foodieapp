@@ -7,6 +7,7 @@ import React from 'react';
 const Navbar = () => {
     return ( 
         
+       < div className='Navbar_holder'>
             <nav className='navbar'>
                 <div className='FoodieImg_container'>
                <img className='FoodieImage' src={FoodieImg} alt="Foodie-Logo" /> 
@@ -23,7 +24,11 @@ const Navbar = () => {
                <a > <img className='XImage' src={XImg} alt="" /> </a>
                <a > <img className='IGImage'  src={IGImg} alt="" /> </a>
                 </div>
+                
             </nav>
+            
+            </div>
+            
     
      );
 }

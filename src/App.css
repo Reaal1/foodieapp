@@ -2,29 +2,41 @@
 *{
     margin: 0;
     
+    
+  }
+
+  .Navbar_holder{
+    
   }
 
   .navbar{
-    padding: 35px 0 35px 80px;
+    position: fixed;
+    padding: 30px 0px 30px 0px;
     display: flex;
+    background-color: white;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1300px;
    /* margin: 0 auto;*/
-    border-bottom: 2px solid #f2f2f2;
+   border-bottom: 2px solid #f2f2f2;
+ 
+  }
+
+  .navbar_line{
+    
   }
 
   .FoodieImg_container{
-    margin-left: 10px;
+    margin-left: 50px;
   }
 
   .navbar .links {
     display: flex;
-    margin-left:200px;
+    margin-left: 200px;
     font-family: inter;
     font-size: 16px;
     line-height: 19.36px;
     font-weight: 500;
-    gap: 50px;
+    gap: 40px;
     
   }
 
@@ -40,10 +52,28 @@
   .socials{
     display: flex;
     align-items: center;
-    margin-left: 140px ;
+    margin-left: 325px ;
     display: flex;
     gap: 35px;
-    
+    }
+
+    .IGImage {
+      margin-left: -60px;
+    }
+
+    .XImage{
+      margin-left:-60px ;
+    }
+
+    .FbImage{
+      margin-left: -60px;
+    }
+
+    .HomeImages_container_Holder{
+      display: flex;
+      padding-top: 100px;
+      max-width: 1300px;
+      
     }
 
     .HomeImage_container{
@@ -53,5 +83,510 @@
     }
 
   .HomeImage{
-    width: 85%;
+    width: 98.5%;
   }
+
+  .LeftImage_container{
+    margin-top: 40px;
+   
+   }
+
+ .LeftImage{
+   width: 100%;
+ }
+
+ .RightImage_container{
+  margin-top: 40px;
+  
+ }
+
+ .RightImage{
+  width: 100%;
+ }
+
+ .Foodie_categories{
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+ }
+ .Foodie_header_holder{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 90px;
+ }
+
+ .Foodie_header{
+   font-family: Inter;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 58.09px;
+   color: black;
+   
+ }
+
+ .Foodie_subheader_body{
+  background: #E7FAFE;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  border-radius: 16px;
+  text-align: center;
+  
+ }
+
+ .Foodie_subheader{
+  font-family:Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height:19.36px;
+ }
+
+ .Meal-choice{
+  gap: 20px;
+  display: flex;
+ }
+
+ .Meal-choice_image{
+  
+ }
+
+ .Breakfast_image ,.Vegan_image, 
+ .Meat_image, .Dessert_image,
+ .Lunch_image, .Chocolate_image{
+  width: 100%;
+ }
+
+ .Recipes_section{
+  margin-top: 110px;
+  margin-left: 40px;
+  
+ }
+
+ .Recipes_header_holder{
+  text-align: center;
+ }
+
+ .Recipes_header{
+  font-family: Inter ;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58.09px;
+  
+ }
+
+ .Recipes_paragraph{
+  font-family: Inter ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 15px;
+  color: #00000099;
+ ;
+ }
+
+ .Recipes-Image_container{
+ margin-top: 40px;
+ }
+
+ .Recipes-Image_container_subs{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+ }
+
+ .Recipes-Image{
+  width: 95%;
+ }
+
+ .Chef_section_holder{
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  gap: 130px;
+  margin-right:40px;
+ }
+
+ .Chef_section_header{
+  width: 150%;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 45px;
+  }
+
+ .Chef_section_paragraph{
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Inter;
+  color: #00000099;
+  width: 150%;
+ }
+
+ .Chef_section_button{
+  margin-top: 40px;
+  width: 180px;
+  height: 60px;
+  border-radius: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background-color:  #000000;
+  
+ }
+
+ .Chef_section_button:hover{
+  background-color: skyblue;
+ }
+
+ .Chef_section_Image_holder{
+  width: 56%;
+  margin-left: 50px;
+  margin-right: 40px;
+ }
+
+ .Instagram_section_holder{
+  background-image:  linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  margin-top: 200px;
+  padding-bottom: 50px;
+ }
+
+ .Instagram_section_header{
+  text-align: center;
+ }
+
+ .Instagram_header{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 58.09px;
+  margin-bottom: 15px;
+ }
+
+ .Instagram_paragraph{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  color:  #00000099;
+  margin-bottom: 50px;
+ }
+
+ .Instagram_section_Image{
+  display: flex;
+  margin-left: 40px;
+  gap: 20px;
+  
+ }
+
+ .Instagram_section_post_Image{
+  width: 90%;
+ }
+
+ .Instagram_section_button{
+  place-items: center;
+  display: grid;
+  margin-top: 40px;
+  
+ }
+
+ .Instagram_button{ 
+  background-color: black;
+  color: #ffffff;
+  width: 229px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.Instagram_button:hover{
+  background-color: skyblue;
+}
+
+.Ig-Image{
+  position: absolute;
+  margin-left: 7px;
+  margin-top: -3px;
+}
+
+.Delicious_recipies_holder{
+  margin-bottom: 100px;
+}
+
+.Delicious_recipies_header_holder{
+  display: flex;
+  gap: 80px;
+  margin-top: 130px;
+  margin-left: 40px;
+  
+}
+
+.Delicious_recipies_header{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.Delicious_recipies_paragraph{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 30px;
+  color: #00000099;
+
+}
+
+.Delicious_recipies_Image_holder{
+  display: flex;
+  margin-top: 70px;
+  gap: 16px;
+  margin-left: 40px;
+  
+}
+
+.Delicious_recipies_Image{
+  width: 96%;
+}
+
+.Subscribe_section{
+  position: absolute;
+  z-index: -1;
+  margin-top: 120px;
+}
+.Subscribe_Image_section{
+  display: grid;
+  place-items: center;
+}
+.Subscribe_ImageImg_holder{
+  display: grid;
+  place-items: center;
+}
+
+.Subscribe_ImageImg{
+  width: 95%;
+}
+
+.Subscribe_section_header_holder{
+  margin-top: -400px;
+}
+
+.Subscribe_section_header{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.Subscribe_section_paragraph{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Subscribe_section_collector{
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 70%;
+  height: 80px;
+  margin-left: 100px;
+  
+}
+
+.Subscribe_section_collector_sub{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+
+}
+
+.Subscribe_button_section{
+  color: #00000099;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height:16.94px;
+}
+
+.Subscribe_button{
+  width: 160px;
+  height: 60px;
+  border-radius: 16px;
+  background-color: black;
+  color: #ffffff;
+}
+
+.Subscribe_button:hover{
+  background-color: skyblue;
+}
+
+.Delicious_sub{
+  display: grid;
+  place-items: center;
+  width:94%;
+  height: 75vh;
+  border-radius: 60px;
+  background-color:  #E7F9FD;
+  margin-left: 40px;
+  margin-bottom: 140px;
+  
+}
+
+.Delicious_sub_header{
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 58px;
+  font-size: 48px;
+  padding-top: 40px;
+}
+
+.Delicious_sub_paragraph{
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 16px;
+  color: #00000099;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.Delicious_sub_input{
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 480px;
+  height: 80px;
+  align-items: center;  
+  margin-top: 80px;
+  }
+
+  .Delicious_sub_input_holder{
+   align-items: center;
+   margin-left: 30px;
+    display: flex;
+    gap: 120px;
+  }
+
+  .Delicious_sub_input_email{
+    color: #00000066;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 14px;
+    color: #00000099;
+    
+  }
+
+  .Delicious_sub_button{
+    width: 160px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: black;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 14px;
+
+  }
+
+  .Delicious_sub_Image_holder{
+    display: flex;
+  }
+
+  .Delicious_sub_salad_holder{
+    margin-right: 40px;
+    margin-top:-281px;
+  }
+
+  .Delicious_sub_salad{
+    border-radius: 0px 0px 0px 40px;
+    width: 100%;
+  }
+
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: -145px;
+    
+  }
+
+  .Delicious_sub_eggs{
+    border-radius: 0px 0px 60px 0px;
+    width: 100%;
+  }
+
+  .footer_section{
+   margin-top: 80px;
+   margin-left: 40px;
+   margin-right: 40px;
+  }
+
+.footer_section_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_section_paragraph{
+  margin-top: 15px;
+  color: #00000099;
+
+}
+
+.footer_section_links{
+  
+  
+}
+
+.footer_section_links_a{
+  margin-left: 55px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: Inter;
+}
+
+.footer_section_line{
+  color: #0000001A;
+  margin-top: 15px;
+}
+
+.footer_section_certify_holder{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_section_certify{
+ display: flex;
+ margin-top: 15px;
+ justify-content: space-between;
+}
+
+.footer_section_paragraph_certify{
+  margin-left: 450px;
+}
+
+.footer_section_paragraph_certify_span{
+  color: orange;
+}
+
+.footer_section-logo{
+  display: flex;
+  gap: 50px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
