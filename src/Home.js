@@ -114,10 +114,14 @@ const Home = () => {
              <br />   et dolore magna aliqut enim ad minim</p>
            </div>
            <div className='Instagram_section_Image'>
+            <div className='Instagram_section_post_Image_holder'>
            <div> <img className='Instagram_section_post_Image' src={Post} alt="Post" /></div>
            <div> <img className='Instagram_section_post_Image' src={Post1} alt="Post1" /></div>
+           </div>
+           <div className='Instagram_section_post_Image_holder'>
            <div> <img className='Instagram_section_post_Image' src={Post2} alt="Post2" /></div>
            <div> <img className='Instagram_section_post_Image' src={Post3} alt="Post3" /></div>
+           </div>
            </div>
            <div className='Instagram_section_button'>
            <div><button className='Instagram_button'>Visit Our Instagram <img className='Ig-Image' src={IG} alt="IG" /> </button></div>

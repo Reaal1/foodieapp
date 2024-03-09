@@ -2,6 +2,7 @@ import FoodieImg from './Assets/Foodieland..png';
 import FbImg from './Assets/001-facebook.png';
 import XImg from './Assets/003-twitter.png';
 import IGImg from './Assets/004-instagram.png';
+import menuIcon from './Assets/menubar.svg';
 import { Link } from 'react-router-dom';
 import React from 'react';
 const Navbar = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
                <a > <img className='XImage' src={XImg} alt="" /> </a>
                <a > <img className='IGImage'  src={IGImg} alt="" /> </a>
                 </div>
-                
+                <div className="menubar"> <img src={menuIcon} alt="" className="menu-icon"/></div>
             </nav>
             
             </div>
