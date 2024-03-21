@@ -15,10 +15,10 @@ const Navbar = () => {
                </div>
                <div className='links'>
                <Link to="/">Home</Link>
-                <Link to="/Recipes-Details">Recipes</Link>
+                <Link to="/recipes">Recipes</Link>
                 <Link to="/BlogList">Blog</Link>
                 <Link to="/Contact-Page">Contact</Link>
-                <Link to="/create">About us</Link>
+                <Link to="/About">About us</Link>
                 </div>
                 <div className='socials'>
                <a > <img className='FbImage' src={FbImg} alt="" /> </a>

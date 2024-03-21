@@ -22,21 +22,10 @@ import Post1 from './Assets/Post (1).png';
 import Post2 from './Assets/Post (2).png';
 import Post3 from './Assets/Post (3).png';
 import IG from './Assets/005-instagram.png';
-import FruitSalad  from './Assets/Group 866.png';
-import WagyfuBeef from './Assets/Group 867.png';
-import JanapneseRice from './Assets/Group 868.png';
-import VegeterianTaco from './Assets/Group 869.png';
-import ChickenSalad from './Assets/Group 870.png';
-import Sandwiches from './Assets/Group 871.png';
-import VeganLettuce from './Assets/Group 872.png';
-import ChickenRamen from './Assets/Group 873.png';
 /*import SubscribeImage from './Assets/Mask Group.png';*/
-import Foodieland2 from './Assets/Foodieland2.png' ;
-import facebook2 from './Assets/001-facebookk.png'  ;
-import X2 from './Assets/003-twitterr.png'  ;
-import IGLogo from './Assets/004-instagramm.png'  ;
-import SaladImage1 from './Assets/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1.png'  ;
-import EggsImage from './Assets/Photo.png'  ;
+import DeliciousSub from './Delicioussub';
+import DeliciousRecipies from './Delicousrecipes'; 
+import Footer from './Footer';
 import React from 'react';
 
 const Home = () => {
@@ -127,28 +116,7 @@ const Home = () => {
            <div><button className='Instagram_button'>Visit Our Instagram <img className='Ig-Image' src={IG} alt="IG" /> </button></div>
            </div>
            </div>
-           <div className='Delicious_recipies_holder'>
-            <div className='Delicious_recipies_header_holder'>
-                <p  className='Delicious_recipies_header'>
-                Try this delicious recipe to make your day
-                </p>
-                <p className='Delicious_recipies_paragraph'>
-                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
-                </p>
-                </div>
-                <div className='Delicious_recipies_Image_holder'>
-                <div> <img className='Delicious_recipies_Image' src={FruitSalad} alt="Delicious_recipies" /></div>
-                <div> <img className='Delicious_recipies_Image' src={WagyfuBeef} alt="Delicious_recipies1" /></div>
-                <div> <img className='Delicious_recipies_Image' src={JanapneseRice} alt="Delicious_recipies2" /></div>
-                <div> <img className='Delicious_recipies_Image' src={VegeterianTaco} alt="Delicious_recipies3" /></div>
-                </div>
-                <div className='Delicious_recipies_Image_holder'>
-                <div> <img className='Delicious_recipies_Image' src={ChickenSalad} alt="Delicious_recipies4" /></div>
-                <div> <img className='Delicious_recipies_Image' src={Sandwiches} alt="Delicious_recipies5" /></div>
-                <div> <img className='Delicious_recipies_Image' src={VeganLettuce} alt="Delicious_recipies6" /></div>
-                <div> <img className='Delicious_recipies_Image' src={ChickenRamen} alt="Delicious_recipies7" /></div>
-                </div>
-             </div>
+          <DeliciousRecipies/>
            { /*<div className='Subscribe_section'>
                 <div className='Subscribe_Image_section'>
                     <div className='Subscribe_ImageImg_holder'>
@@ -167,53 +135,8 @@ const Home = () => {
                     </div>
                 </div>
                 </div> */}
-                <div className='Delicious_sub'>
-                    <p className='Delicious_sub_header'>Deliciousness to your inbox</p>
-                    <p className='Delicious_sub_paragraph'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod 
-                        <br />tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
-                    <div className='Delicious_sub_input'>
-                        <div className='Delicious_sub_input_holder'>
-                        <p className='Delicious_sub_input_email'>Your email address...</p>
-                        <div className='Delicious_sub_button' >
-                        <button className='Delicious_sub_button'>Subscribe</button>
-                    </div>
-                    </div>
-                    </div>
-                    <div className='Delicious_sub_Image_holder'>
-                    <div className='Delicious_sub_salad_holder'>
-                    <img className='Delicious_sub_salad' src={SaladImage1} alt="Salad" />
-                    </div>
-                    <div className='Delicious_sub_eggs_holder'>
-                    <img className='Delicious_sub_eggs' src={EggsImage} alt="Eggs" />
-                    </div>
-                    </div>
-                </div>
-             <footer className='footer_section'>
-                <div className='footer_section_container'>
-                <div><img className='footer_section_Image' src={Foodieland2} alt="Foodie_logo" />
-                <p className='footer_section_paragraph'>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
-                </div>
-                <div className='footer_section_links'>
-                    <a className='footer_section_links_a'  href="">Recipes</a>
-                    <a className='footer_section_links_a' href="">Blog</a>
-                    <a className='footer_section_links_a' href="">Contact</a>
-                    <a className='footer_section_links_a' href="">About Us</a>
-                </div>
-                </div>
-                <hr className='footer_section_line' />
-                <div className='footer_section_certify_holder'>
-                <div className='footer_section_certify'>
-                    <div  className='footer_section_paragraph_certify_holder'>
-                    <p className='footer_section_paragraph_certify'>© 2024 Kayode Okoli . Powered by <span className='footer_section_paragraph_certify_span'>React-JS</span>  </p>
-                    </div>
-                    <div className='footer_section-logo'>
-                        <div><img className='footer_section_image' src={facebook2} alt="facebook2" /></div>
-                        <div><img className='footer_section_image' src={X2} alt="X" /></div>
-                        <div><img className='footer_section_image' src={IGLogo} alt="IG" /></div>
-                    </div>
-                </div>
-                </div>
-             </footer>
+             <DeliciousSub/>
+            <Footer/>
         </div>
         
             

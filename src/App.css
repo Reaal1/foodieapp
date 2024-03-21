@@ -1,13 +1,17 @@
 
 *{
     margin: 0;
-    
+ 
     
   }
+
+  
 
   .Navbar_holder{
     
   }
+
+
 
   .navbar{
     position: fixed;
@@ -72,6 +76,8 @@
     .menubar{
       display: none;
     }
+
+   
 
     .HomeImages_container_Holder{
       display: flex;
@@ -184,13 +190,13 @@
   font-size: 16px;
   line-height: 28px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 30px;
   color: #00000099;
  
  }
 
  .Recipes-Image_container{
- margin-top: 40px;
+ margin-top: 70px;
  }
 
  .Recipes-Image_container_subs{
@@ -256,7 +262,7 @@
 
  .Instagram_section_holder{
   background-image:  linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
-  margin-top: 200px;
+  margin-top: 2500px;
   padding-bottom: 50px;
  }
 
@@ -269,7 +275,7 @@
   font-weight: 600;
   font-size: 45px;
   line-height: 58.09px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
  }
 
  .Instagram_paragraph{
@@ -285,8 +291,13 @@
  .Instagram_section_Image{
   display: flex;
   margin-left: 40px;
+  margin-top: 50px;
   gap: 20px;
   
+ }
+
+ .Instagram_section_post_Image_holder{
+  display: flex;
  }
 
  .Instagram_section_post_Image{
@@ -325,7 +336,7 @@
 .Delicious_recipies_header_holder{
   display: flex;
   gap: 80px;
-  margin-top: 130px;
+  margin-top: 150px;
   margin-left: 40px;
   
 }
@@ -349,7 +360,7 @@
 
 .Delicious_recipies_Image_holder{
   display: flex;
-  margin-top: 70px;
+  margin-top: 40px;
   gap: 16px;
   margin-left: 40px;
   
@@ -441,7 +452,7 @@
   border-radius: 60px;
   background-color:  #E7F9FD;
   margin-left: 40px;
-  margin-bottom: 140px;
+  margin-top: 150px;
   
 }
 
@@ -529,9 +540,10 @@
   }
 
   .footer_section{
-   margin-top: 80px;
+   margin-top: 150px;
    margin-left: 40px;
    margin-right: 40px;
+   
   }
 
 .footer_section_container{
@@ -568,12 +580,14 @@
 .footer_section_certify_holder{
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .footer_section_certify{
  display: flex;
  margin-top: 15px;
  justify-content: space-between;
+ margin-top: 20px;
 }
 
 .footer_section_paragraph_certify{

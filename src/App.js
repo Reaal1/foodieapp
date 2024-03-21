@@ -1,20 +1,34 @@
 import React from 'react';
 import  Navbar from './Navbar';
-import  Home from './Home';
-
-import  { BrowserRouter as Router } from 'react-router-dom';
+import  { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import  Home from './Home';
+import Recipes from './Recipes';
+import Bloglist from "./Bloglist";
+/*import Contact from "./Contact";
+import  About from './About';*/
+
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Router>
-      <Navbar/>
-      <Home/>
-      
-      </Router>
+    <Navbar/>
+      <Switch>
+      <Route exact path="/">
+          <Home />
+       </Route>
+       <Route path="/recipes">
+         <Recipes />
+      </Route>
+      <Route path="/Bloglist">
+         <Bloglist />
+      </Route>
+       </Switch>
     </div>
-  );
+    </Router>
+  )
 }
 
 export default App;
