@@ -55,8 +55,10 @@ const Home = () => {
             <div className='Meal-choice_image'>  <img className='Vegan_image'  src={Vegan} alt="Vegan" /></div> 
             <div className='Meal-choice_image'> <img className='Meat_image' src={Meat} alt="Meat" /></div> 
             <div className='Meal-choice_image'> <img className='Dessert_image' src={Dessert} alt="Dessert" /></div> 
+            <div className='Meal-choice_image1'>
             <div className='Meal-choice_image'> <img className='Lunch_image' src={Lunch} alt="Lunch" /></div> 
             <div className='Meal-choice_image'> <img className='Chocolate_image' src={Chocolate} alt="Chocolate" /></div> 
+            </div>
            </div>
            </div>
            <div className='Recipes_section'>
@@ -67,19 +69,18 @@ const Home = () => {
             </div>
             <div className='Recipes-Image_container'>
             <div className='Recipes-Image_container_subs'> 
-            <div>  <img className='Recipes-Image' src={WagyfuImage} alt="Wagyfu-Image" /></div>
-            <div>  <img className='Recipes-Image' src={SalmonImage} alt="Salmon-Image" /></div>
-            <div>  <img className='Recipes-Image' src={PancakeImage} alt="Pancake-Image" /></div>
+            <div className='Recipes-Image_holder'>  <img className='Recipes-Image' src={WagyfuImage} alt="Wagyfu-Image" /></div>
+            <div className='Recipes-Image_holder'>  <img className='Recipes-Image' src={SalmonImage} alt="Salmon-Image" /></div>
+            <div className='Recipes-Image_holder'>  <img className='Recipes-Image' src={PancakeImage} alt="Pancake-Image" /></div>
             </div>
             <div className='Recipes-Image_container_subs'>
-            <div> <img className='Recipes-Image' src={SaladImage} alt="Salad-Image" /></div>
-            <div> <img className='Recipes-Image' src={CreamCheeseImage} alt="CreamCheese-Image" /></div>
-            <div> <img className='Recipes-Image' src={OrangeImage} alt="Orange-Image" /></div>
+            <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={SaladImage} alt="Salad-Image" /></div>
+            <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={CreamCheeseImage} alt="CreamCheese-Image" /></div>
+            <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={OrangeImage} alt="Orange-Image" /></div>
             </div>
             <div className='Recipes-Image_container_subs'>
-            <div> <img className='Recipes-Image' src={PotChickenImage} alt="PotChicken-Image" /></div>
-            <div> <img className='Recipes-Image' src={BaconPastaImage} alt="BaconPasta-Image" /></div>
-            <div> <img className='Recipes-Image' src={AdImage} alt="Ad-Image" /></div>
+            <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={PotChickenImage} alt="PotChicken-Image" /></div>
+            <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={BaconPastaImage} alt="BaconPasta-Image" /></div>
             </div>
            </div>
            <div className='Chef_section_holder'>

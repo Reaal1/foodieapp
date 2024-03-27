@@ -1,29 +1,21 @@
 
 *{
-    margin: 0;
- 
-    
-  }
-
-  
+  margin: 0;
+ }
 
   .Navbar_holder{
     
   }
 
-
-
-  .navbar{
+.navbar{
     position: fixed;
-    padding: 30px 0px 30px 45px;
+    padding: 1.6em 3em 1.6em 3em;
     display: flex;
     background-color: white;
     align-items: center;
-    
-   /* margin: 0 auto;*/
-   border-bottom: 2px solid #f2f2f2;
- 
-  }
+     margin: 0 auto;
+    border-bottom: 0.1em solid #f2f2f2;
+ }
 
   .navbar_line{
     
@@ -33,21 +25,20 @@
     margin-left: 0px;
   }
 
-  .navbar .links {
+   .links {
     display: flex;
-    margin-left: 275px;
+    margin-left: 15em;
     font-family: inter;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 19.36px;
     font-weight: 500;
-    gap: 30px;
-    
+   gap: 1.39em;
   }
 
   .navbar a{
     color: black;
     text-decoration: none;
-    padding: 6px;
+   padding: 0.37em;
   }
   .navbar a:hover{
     color: skyblue;
@@ -56,25 +47,25 @@
   .socials{
     display: flex;
     align-items: center;
-    margin-left: 280px ;
+   margin-left: 15.03em ;
     display: flex;
-    gap: 35px;
+   gap: 35px;
     }
 
     .IGImage {
-      margin-left: -60px;
+     /* margin-left: -60px;*/
     }
 
     .XImage{
-      margin-left:-60px ;
+     /* margin-left:-60px ;*/
     }
 
     .FbImage{
-      margin-left: -60px;
+     /* margin-left: -60px;*/
     }
 
     .menubar{
-      display: none;
+     display: none;
     }
 
    
@@ -153,6 +144,10 @@
 
  .Meal-choice{
   gap: 20px;
+  display: flex;
+ }
+
+ .Meal-choice_image1{
   display: flex;
  }
 
@@ -604,8 +599,570 @@
   padding-bottom: 30px;
 }
 
+/* NavBar Media Queries */
 
-@media(max-width: 1278px ){
+@media screen and (max-width: 1028px){
+  .links{
+    margin-left: 8em;
+    font-size: 1em;
+    gap: 1.1em;
+  }
+
+  .socials{
+    display: flex;
+    align-items: center;
+    margin-left: 8em ;
+    display: flex;
+    gap: 35px;
+  }
+
+ /* .menubar{
+    
+    padding-left: 33em;
+    } */
+
+    /* Home Media Queries */
+
+    .HomeImage_container{
+      margin-top: 30px;
+    }
+
+    .HomeImage{
+      width: 96%;
+      }
+  
+    .LeftImage_container{
+      
+     
+     }
+  
+   .LeftImage{
+     width: 100%;
+   }
+  
+   .RightImage_container{
+  
+ }
+  
+   .RightImage{
+    width: 100%;
+   }
+
+   .Foodie_header_holder{
+   
+  }
+
+    .Foodie_subheader_body{
+     
+    }
+
+    .Recipes_section{
+     margin-top: 110px;
+     margin-left: 0px;
+     
+    }
+   
+    .Recipes_header_holder{
+     text-align: center;
+    }
+
+    
+ .Recipes-Image_container{
+  margin-top: 70px;
+  }
+ 
+  .Recipes-Image_container_subs{
+   display: flex;
+   gap: 20px;
+   margin-top: 30px;
+   margin-left: 30px;
+  
+  }
+
+  .Recipes-Image_holder{
+    
+  }
+ 
+  .Recipes-Image{
+   width: 301px;
+  }
+
+  .Chef_section_holder{
+    margin-right:0px;
+    padding-left: 3em;
+   }
+
+   .Chef_section_Image{
+    width: 490px;
+   }
+   
+  .Chef_section_Image_holder{
+    width: 50%;
+    margin-left: 55px;
+    margin-right: 40px;
+   }
+
+   .Instagram_section_holder{
+    background-image:  linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    margin-top: 2150px;
+    padding-bottom: 50px;
+   }
+
+   .Delicious_recipies_header_holder{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+   }
+
+   .Delicious_recipies_header, .Delicious_recipies_paragraph{
+    text-align: center;
+   }
+
+   .Delicious_recipies_Image_holder{
+    gap: 1px;
+   }
+
+   .Delicious_recipies_Image{
+    width: 82%;
+   }
+
+  .Delicious_sub{
+    width:90.5%;
+    height: 60vh;
+    }
+
+    .Delicious_sub_salad_holder{
+      margin-right: 40px;
+      margin-top:-211px;
+    }
+  
+    .Delicious_sub_salad{
+      border-radius: 0px 0px 0px 40px;
+      width: 100%;
+    }
+  
+    .Delicious_sub_eggs_holder{
+      margin-left: 430px;
+      margin-top: -125px;
+      
+    }
+  
+    .Delicious_sub_eggs{
+      border-radius: 0px 0px 60px 0px;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 996px) {
+  .socials{
+    padding-left: 55px;
+       gap: 15px;
+  }
+
+  .Delicious_sub_salad_holder{
+    margin-right: 50px;
+    margin-top:-200px;
+  }
+   
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: -110px;
+    }
+
+  .footer_section_paragraph_certify{
+    margin-left: 350px;
+  }
+
+ .footer_section-logo{
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 876px) {
+   .links{
+    display: none;
+   }
+
+   .socials{
+    display: none;
+   }
+
+   .menubar{
+    display: block;
+    padding-left: 700px;
+    }
+
+    .HomeImage_container{
+      margin-top: 0px;
+    }
+
+    .HomeImage{
+      width: 97.9%;
+      margin-left: 60px;
+      }
+  
+    .LeftImage_container{
+      display: none;
+     }
+  
+   
+  
+   .RightImage_container{
+   display: none;
+ }
+
+
+   .Foodie_header{
+    padding-left: 305px ;
+  }
+
+  .Foodie_subheader_body{
+    display: none;
+  }
+
+  .Meal-choice{
+    padding-left: 20px;
+    gap:60px;
+  }
+
+  .Meal-choice_image1{
+   display: none;
+  }
+
+  .Breakfast_image ,.Vegan_image, 
+  .Meat_image, .Dessert_image,
+  .Lunch_image, .Chocolate_image{
+   width: 125%;
+  }
+
+.Recipes-Image_container{
+ margin-top: 70px;
+ }
+
+.Recipes-Image{
+  width: 270px;
+  margin-left: 4px;
+ }
+
+ .Chef_section_Image{
+  width: 450px;
+ }
+
+ .Instagram_section_holder{
+ 
+ }
+
+ .Instagram_section_holder{
+  margin-left: 60px;
+ margin-right: 10px;
+ }
+
+ .Delicious_recipies_holder{
+  margin-left: 30px;
+  gap: 40px;
+ }
+
+.Delicious_recipies_Image{
+  width: 90%;
+  
+}
+
+.Delicious_sub{
+  width: 97%;
+}
+
+.footer_section_paragraph{
+  display: none;
+}
+
+.footer_section_paragraph_certify{
+  margin-left: 250px;
+}
+
+}
+
+@media screen and (max-width: 776px) {
+  .menubar{
+    
+    padding-left: 580px;
+    }
+
+    .HomeImage{
+      width: 94%;
+      margin-left: 38px;
+      }
+
+      .Foodie_header{
+        padding-left: 240px ;
+      }
+
+      .Recipes_header_holder{
+        margin-right: 60px;
+      }
+
+      .Recipes-Image_container_subs{
+        display: grid;
+        place-items: center;
+        margin-right: 80px;
+      }
+
+      .Recipes-Image{
+        width: 100%;
+        display: none;
+    
+      }
+
+      .Chef_section_Image{
+        width: 350px;
+       }
+
+      .Delicious_sub{
+        width: 94%;
+        height: 70vh;
+      }
+
+      .Delicious_sub_salad_holder{
+        margin-right: 50px;
+        margin-top:-60px;
+      }
+       
+      .Delicious_sub_eggs_holder{
+        margin-left: 430px;
+        margin-top: -10px;
+        }
+
+        .footer_section_paragraph_certify{
+          margin-left: 150px;
+        }
+
+        .Recipes_header_holder{
+          
+          margin-left: 100px;
+        }
+
+        .Recipes_paragraph{
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+}
+
+@media screen and (max-width: 550px) {
+  .FoodieImg_container{
+    margin-left: -20px;
+  }
+  .menubar{
+    padding-left: 310px;
+    }
+
+    .HomeImage{
+      width: 84.5%;
+      margin-left: -39px;
+      }
+      
+       .Foodie_header{
+        padding-left: 90px ;
+        font-size: 40px;
+      }
+
+      .Meal-choice{
+        gap: 30px;
+        margin-left: -54px;
+      }
+
+      .Meal-choice_image{
+        width: 90px;
+      }
+
+      .Recipes_header{
+        font-size: 35px;
+        margin-left: -50px;
+     }
+
+     .Recipes_paragraph{
+      margin-left: -50px;
+     }
+
+      .Chef_section_holder{
+        display: grid;
+        
+    }
+
+    .Chef_section{
+      width: 65%;
+    }
+
+    .Chef_section_header{
+      font-size: 35px;
+       margin-left: -20px;
+      text-align: center;
+    }
+    
+    .Chef_section_paragraph{
+      margin-left: -20px;
+      text-align: center;
+    }
+
+    .Chef_section_button{
+      margin-left: 115px;
+    }
+
+    .Chef_section_Image{
+      width: 450px;
+      margin-left: -90px;
+    }
+
+    .Instagram_section_holder{
+      margin-left: 0px;
+      width: 510px;
+    }
+
+    .Instagram_header{
+      font-size: 35px;
+      margin-left: -15px;
+      line-height: 40px;
+    }
+
+    .Instagram_paragraph{
+      margin-left: -15px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .Instagram_section_post_Image_holder{
+      display: block;
+    }
+
+    .Instagram_section_post_Image{
+      margin-left: -10px;
+    }
+    
+
+    .Delicious_recipies_holder{
+      margin-left: -49px;
+    }
+
+    .Delicious_recipies_header{
+      font-size: 35px;
+      line-height: 40px;
+      margin-left: -32px;
+    }
+
+    .Delicious_recipies_paragraph{
+      margin-left: -32px;
+      padding:0px 20px 0px 20px;
+
+    }
+
+    .Delicious_recipies_Image_holder{
+      display: grid;
+      place-items: center;
+    }
+
+    .Delicious_sub{
+      width: 86.7%;
+      height: 476px;
+      margin-left: 17px;
+    }
+
+    .Delicious_sub_header{
+      font-size: 30px;
+      margin-top: -20px;
+    
+    }
+
+    .Delicious_sub_paragraph{
+      
+    }
+    .Delicious_sub_input{
+     width:400px ;
+     
+    }
+
+    .Delicious_sub_button{
+      width: 100px;
+
+    }
+
+    .Delicious_sub_salad{
+      width: 160px;
+    }
+
+    .Delicious_sub_eggs{
+      width: 150px;
+    }
+
+    .Delicious_sub_salad_holder{
+     
+      margin-top: -65px;
+    }
+     
+    .Delicious_sub_eggs_holder{
+      margin-left: 120px;
+      
+      }
+
+   .footer_section_container{
+     display: grid;
+     place-items: center;
+     margin-left: -40px;
+     gap: 25px;
+   }
+
+   .footer_section_certify{
+    display: grid;
+    place-items: center;
+   }
+
+   .footer_section_paragraph_certify{
+    margin-left: 50px;
+    
+  }
+
+  .footer_section-logo{
+    margin-top: 20px;
+  }
+
+
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+/*@media (min-width: 576px) {
+
+  .navbar{
+    position: fixed;
+    padding: 1.6em 1em 1.6em 1.5em;
+  }
+
+ 
+  
+  .links, .socials{
+    display: none;
+  }
+
+  .menubar{
+    display: block;
+    padding-left: 9em;
+ 
+    
+  }
+
+
+
+}*/
+
+
+
+
+
+
+
+/*@media(max-width: 1278px ){
    
   .socials{
       margin-left: 206px;
@@ -626,30 +1183,8 @@
   
     }
 
-  @media(max-width: 1247px ){
-   
-    .socials{
-     
-         
-    }
-      
-  }
-@media(max-width: 1164px ){
-  .navbar .links {
-   
-    margin-left: 210px;
-   
- }
-  .socials{
-        
-            }
-          
-      }
 
-
-      
-
-  @media(max-width: 1024px ){
+@media(max-width: 1024px ){
 
     .navbar .links {
       margin-left: 160px;
@@ -1027,7 +1562,143 @@
         margin-right: 160px;
         
        }
-       }
+       } 
+
+       @media(max-width: 414px ){
+        
+  .navbar{
+    
+    padding: 30px 0px 30px 25px;
+    
+    }
+
+    .FoodieImage{
+      width: 80%;
+    }
+    .menubar{
+      
+      margin-left: 125px;
+       padding-right:30px ;
+     }
+
+     .menu-icon{
+      width: 80%;
+     }
+
+     .HomeImage_container{
+      margin-left: 40px;
+     }
+
+     .HomeImage{
+      width: 96.5%;
+      
+      margin-right: 50px;
+    }
+
+   
+
+    .Foodie_header{
+      display: none;
+    }
+
+    .Foodie_subheader_body{
+      
+    }
+
+    .Foodie_header_holder{
+      display: grid;
+      place-items:center ;
+    }
+
+    .Foodie_subheader{
+     font-size: 14px;
+     margin-left: -100px;
+     width: 200%;
+     
+    }
+
+    .Meal-choice{
+      display: grid;
+      place-items: center;
+    }
+
+    .Breakfast_image, 
+    .Vegan_image,
+    .Meat_image,
+    .Dessert_image,
+    .Lunch_image,
+    .Chocolate_image{
+      width: 130px;
+    }
+
+    .Instagram_section_holder{
+      margin-top: 2900px;
+    }
+
+    .Recipes_header{
+      font-size: 18px;
+      line-height: 20px;
+      margin-right: 250px;
+
+    }
+
+    .Recipes_paragraph{
+      font-size: 16px;
+      line-height: 20px;
+      margin-right: 250px;
+      padding: 0px 20px 0 20px;
+
+    }
+
+    .Recipes_section{
+     
+      
+      display: grid;
+      place-items: center;
+
+      
+    }
+
+    .Recipes-Image_container_subs{
+      display: grid;
+      place-items: center;
+      margin-right: 250px;
+    }
+
+    .Recipes-Image{
+      width: 200px;
+    }
+
+    .Chef_section_holder{
+      display: grid;
+      
+    }
+
+    .Chef_section{
+      
+    }
+
+    .Chef_section_header{
+      font-size:20px;
+      line-height: 20px;
+     
+      text-align: center;
+      padding: 0 40p 0 40px;
+      width: 50%;
+    }
+
+    .Chef_section_paragraph{
+      font-size:16px;
+      line-height: 24px;
+      text-align: center;
+      padding: 0 40p 0 40px;
+      width: 50%;
+    }
+
+
+
+      }  */
+
   
   
 
