@@ -1,6 +1,6 @@
 
 *{
-  margin: 0;
+  margin: 0px;
  }
 
   .Navbar_holder{
@@ -13,12 +13,12 @@
     display: flex;
     background-color: white;
     align-items: center;
-     margin: 0 auto;
+     width: 100%;
     border-bottom: 0.1em solid #f2f2f2;
  }
 
-  .navbar_line{
-    
+  .navbar-line{
+  
   }
 
   .FoodieImg_container{
@@ -27,18 +27,18 @@
 
    .links {
     display: flex;
-    margin-left: 15em;
+    margin-left: 17em;
     font-family: inter;
     font-size: 1em;
     line-height: 19.36px;
     font-weight: 500;
-   gap: 1.39em;
+    gap: 1.35em;
   }
 
   .navbar a{
     color: black;
     text-decoration: none;
-   padding: 0.37em;
+    
   }
   .navbar a:hover{
     color: skyblue;
@@ -47,9 +47,9 @@
   .socials{
     display: flex;
     align-items: center;
-   margin-left: 15.03em ;
+    margin-left: 20.03em ;
     display: flex;
-   gap: 35px;
+    gap: 30px;
     }
 
     .IGImage {
@@ -72,43 +72,40 @@
 
     .HomeImages_container_Holder{
       display: flex;
-      padding-top: 100px;
-      max-width: 1300px;
-      
-    }
+      padding-top: 95px;
+      }
 
     .HomeImage_container{
-     margin-top: 40px;
-     display: grid;
-     place-items: center;
-    }
+      display: grid;
+      place-items: center;
+      }
 
   .HomeImage{
-    width: 98.5%;
-  }
+    width: 100%;
+    }
 
   .LeftImage_container{
-    margin-top: 40px;
-   
+    margin-top: 10px;
+    margin-right: 10px;
    }
 
  .LeftImage{
-   width: 100%;
- }
+   width: 104%;
+   }
 
  .RightImage_container{
-  margin-top: 40px;
-  
- }
+  margin-top: 10px;
+  margin-left: 10px;
+  }
 
  .RightImage{
-  width: 100%;
+  width: 105%;
  }
 
  .Foodie_categories{
   margin-top: 70px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 53px;
+  margin-right: 53px;
  }
  .Foodie_header_holder{
  display: flex;
@@ -123,8 +120,7 @@
    font-size: 48px;
    line-height: 58.09px;
    color: black;
-   
- }
+   }
 
  .Foodie_subheader_body{
   background: #E7FAFE;
@@ -148,6 +144,7 @@
  }
 
  .Meal-choice_image1{
+  gap: 20px;
   display: flex;
  }
 
@@ -158,7 +155,7 @@
  .Breakfast_image ,.Vegan_image, 
  .Meat_image, .Dessert_image,
  .Lunch_image, .Chocolate_image{
-  width: 100%;
+  width: 104%;
  }
 
  .Recipes_section{
@@ -176,8 +173,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 58.09px;
-  
- }
+  }
 
  .Recipes_paragraph{
   font-family: Inter ;
@@ -185,20 +181,19 @@
   font-size: 16px;
   line-height: 28px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #00000099;
  
  }
 
  .Recipes-Image_container{
- margin-top: 70px;
+ margin-top: 50px;
  }
 
  .Recipes-Image_container_subs{
   display: flex;
-  gap: 20px;
+  gap: 30px;
   margin-top: 30px;
-  margin-right: 20px;
  }
 
  .Recipes-Image{
@@ -259,6 +254,7 @@
   background-image:  linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
   margin-top: 2500px;
   padding-bottom: 50px;
+  width: 100%;
  }
 
  .Instagram_section_header{
@@ -280,23 +276,24 @@
   line-height: 28px;
   margin-bottom: 15px;
   color:  #00000099;
-  margin-bottom: 50px;
  }
 
  .Instagram_section_Image{
   display: flex;
-  margin-left: 40px;
+  margin-left: 50px;
   margin-top: 50px;
+  gap: 10px;
+
+  }
+
+ .Instagram_section_post_Image_holder{
+  display: flex;
   gap: 20px;
   
  }
 
- .Instagram_section_post_Image_holder{
-  display: flex;
- }
-
  .Instagram_section_post_Image{
-  width: 90%;
+  width: 95%;
  }
 
  .Instagram_section_button{
@@ -326,21 +323,23 @@
 
 .Delicious_recipies_holder{
   margin-bottom: 100px;
+  margin-left: 10px;
 }
 
 .Delicious_recipies_header_holder{
   display: flex;
-  gap: 80px;
+  gap: 50px;
   margin-top: 150px;
   margin-left: 40px;
-  
+  margin-right: 40px;
 }
 
 .Delicious_recipies_header{
   font-family: Inter;
   font-weight: 600;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 50px;
+  width: 100%;
 }
 
 .Delicious_recipies_paragraph{
@@ -350,19 +349,18 @@
   line-height: 28px;
   margin-top: 30px;
   color: #00000099;
-
+ 
 }
 
 .Delicious_recipies_Image_holder{
   display: flex;
-  margin-top: 40px;
-  gap: 16px;
+  margin-top: 55px;
   margin-left: 40px;
-  
+  gap: 10px;
 }
 
 .Delicious_recipies_Image{
-  width: 96%;
+  width: 95%;
 }
 
 .Subscribe_section{
@@ -442,7 +440,7 @@
 .Delicious_sub{
   display: grid;
   place-items: center;
-  width:94%;
+  width:92.5%;
   height: 79vh;
   border-radius: 60px;
   background-color:  #E7F9FD;
@@ -515,7 +513,7 @@
 
   .Delicious_sub_salad_holder{
     margin-right: 40px;
-    margin-top:-281px;
+    margin-top:-250px;
   }
 
   .Delicious_sub_salad{
@@ -525,7 +523,7 @@
 
   .Delicious_sub_eggs_holder{
     margin-left: 430px;
-    margin-top: -145px;
+    margin-top: -115px;
     
   }
 
@@ -537,7 +535,7 @@
   .footer_section{
    margin-top: 150px;
    margin-left: 40px;
-   margin-right: 40px;
+   margin-right: 50px;
    
   }
 
@@ -602,8 +600,12 @@
 /* NavBar Media Queries */
 
 @media screen and (max-width: 1028px){
+
+  .navbar{
+    width: 100%;
+  }
   .links{
-    margin-left: 8em;
+    margin-left: 12em;
     font-size: 1em;
     gap: 1.1em;
   }
@@ -611,12 +613,12 @@
   .socials{
     display: flex;
     align-items: center;
-    margin-left: 8em ;
+    margin-left: 10.5em ;
     display: flex;
     gap: 35px;
   }
 
- /* .menubar{
+ /*.menubar{
     
     padding-left: 33em;
     } */
@@ -624,15 +626,16 @@
     /* Home Media Queries */
 
     .HomeImage_container{
-      margin-top: 30px;
+      margin-top: 10px;
+      
     }
 
     .HomeImage{
-      width: 96%;
+      width: 91%;
       }
   
     .LeftImage_container{
-      
+      display: none;
      
      }
   
@@ -641,7 +644,7 @@
    }
   
    .RightImage_container{
-  
+    display: none;
  }
   
    .RightImage{
@@ -658,9 +661,8 @@
 
     .Recipes_section{
      margin-top: 110px;
-     margin-left: 0px;
-     
-    }
+     margin-left: 10px;
+     }
    
     .Recipes_header_holder{
      text-align: center;
@@ -706,6 +708,14 @@
     background-image:  linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
     margin-top: 2150px;
     padding-bottom: 50px;
+   }
+
+   .Instagram_section_post_Image{
+    width: 220px;
+   }
+
+   .Instagram_section_post_Image_holder{
+    
    }
 
    .Delicious_recipies_header_holder{
@@ -755,18 +765,25 @@
 
 @media screen and (max-width: 996px) {
   .socials{
-    padding-left: 55px;
-       gap: 15px;
+  gap: 20px;
   }
+
+  .Recipes-Image{
+    width: 100%;
+  }
+
+  .Instagram_section_post_Image{
+    width: 213px;
+   }
 
   .Delicious_sub_salad_holder{
     margin-right: 50px;
-    margin-top:-200px;
+    margin-top:-20px;
   }
    
   .Delicious_sub_eggs_holder{
     margin-left: 430px;
-    margin-top: -110px;
+    margin-top: 55px;
     }
 
   .footer_section_paragraph_certify{
@@ -857,13 +874,21 @@
  margin-right: 10px;
  }
 
+ .Instagram_section_Image{
+  margin-left: 45px;
+ }
+
+ .Instagram_section_post_Image{
+  width: 160px;
+ }
+
  .Delicious_recipies_holder{
-  margin-left: 30px;
-  gap: 40px;
+  margin-left: 0px;
+  gap: 20px;
  }
 
 .Delicious_recipies_Image{
-  width: 90%;
+  width: 80%;
   
 }
 
@@ -883,21 +908,36 @@
 
 @media screen and (max-width: 776px) {
   .menubar{
-    
-    padding-left: 580px;
+    padding-left: 540px;
     }
 
     .HomeImage{
-      width: 94%;
-      margin-left: 38px;
+      width: 90%;
+      margin-left: 1px;
       }
 
       .Foodie_header{
-        padding-left: 240px ;
+        padding-left: 200px ;
+      }
+
+      .Meal-choice{
+        padding-left: 0px;
+        gap:40px;
+      }
+
+      .Breakfast_image, 
+      .Vegan_image, 
+      .Meat_image, 
+      .Dessert_image{
+        width: 140px;
+      }
+
+      .Instagram_section_holder{
+        margin-left: 0px;
       }
 
       .Recipes_header_holder{
-        margin-right: 60px;
+        margin-right: 130px;
       }
 
       .Recipes-Image_container_subs{
@@ -913,22 +953,26 @@
       }
 
       .Chef_section_Image{
-        width: 350px;
+        width: 310px;
        }
 
       .Delicious_sub{
-        width: 94%;
-        height: 70vh;
-      }
+        width: 90%;
+        }
+
+        .Delicious_sub_salad, .Delicious_sub_eggs{
+         width: 125px;
+        }
 
       .Delicious_sub_salad_holder{
-        margin-right: 50px;
-        margin-top:-60px;
+        margin-right: 20px;
+        margin-top:30px;
       }
        
       .Delicious_sub_eggs_holder{
-        margin-left: 430px;
-        margin-top: -10px;
+        margin-left: 420px;
+        margin-top: 80px;
+        
         }
 
         .footer_section_paragraph_certify{
@@ -951,26 +995,37 @@
     margin-left: -20px;
   }
   .menubar{
-    padding-left: 310px;
+    padding-left: 350px;
     }
 
     .HomeImage{
-      width: 84.5%;
-      margin-left: -39px;
+      width: 90.5%;
       }
       
        .Foodie_header{
-        padding-left: 90px ;
+        padding-left: 130px ;
         font-size: 40px;
+      }
+    
+
+      .Breakfast_image, 
+      .Vegan_image, 
+      .Meat_image, 
+      .Dessert_image{
+        width: 120px;
       }
 
       .Meal-choice{
-        gap: 30px;
-        margin-left: -54px;
+        margin-left: -30px;
       }
 
       .Meal-choice_image{
-        width: 90px;
+        width: 88px;
+      }
+
+      .Recipes_section{
+        margin-left: 50px;
+        width: 100%;
       }
 
       .Recipes_header{
@@ -984,11 +1039,14 @@
 
       .Chef_section_holder{
         display: grid;
+        margin-left: -80px;
+        width: 100%;
         
     }
 
     .Chef_section{
-      width: 65%;
+      width: 61%;
+      margin-left: 20px;
     }
 
     .Chef_section_header{
@@ -1003,17 +1061,18 @@
     }
 
     .Chef_section_button{
-      margin-left: 115px;
+      margin-left: 150px;
+     
     }
 
     .Chef_section_Image{
       width: 450px;
-      margin-left: -90px;
+      margin-left: -40px;
     }
 
     .Instagram_section_holder{
       margin-left: 0px;
-      width: 510px;
+     width: 100%;
     }
 
     .Instagram_header{
@@ -1023,22 +1082,24 @@
     }
 
     .Instagram_paragraph{
-      margin-left: -15px;
-      padding-left: 30px;
-      padding-right: 30px;
+      
+     
+     line-height: 22px;
     }
 
     .Instagram_section_post_Image_holder{
       display: block;
+       
     }
+    
 
     .Instagram_section_post_Image{
-      margin-left: -10px;
+     width: 230px;
     }
     
 
     .Delicious_recipies_holder{
-      margin-left: -49px;
+      margin-left: 40px;
     }
 
     .Delicious_recipies_header{
@@ -1059,10 +1120,8 @@
     }
 
     .Delicious_sub{
-      width: 86.7%;
-      height: 476px;
-      margin-left: 17px;
-    }
+      width: 85.7%;
+     }
 
     .Delicious_sub_header{
       font-size: 30px;
@@ -1070,9 +1129,7 @@
     
     }
 
-    .Delicious_sub_paragraph{
-      
-    }
+   
     .Delicious_sub_input{
      width:400px ;
      
@@ -1092,19 +1149,17 @@
     }
 
     .Delicious_sub_salad_holder{
-     
-      margin-top: -65px;
+      
     }
      
     .Delicious_sub_eggs_holder{
-      margin-left: 120px;
+      margin-left: 140px;
       
       }
 
    .footer_section_container{
      display: grid;
      place-items: center;
-     margin-left: -40px;
      gap: 25px;
    }
 
@@ -1114,12 +1169,166 @@
    }
 
    .footer_section_paragraph_certify{
-    margin-left: 50px;
+    margin-left: 60px;
     
   }
 
   .footer_section-logo{
     margin-top: 20px;
+  }
+
+
+}
+
+@media screen and (min-width: 361px) {
+  .FoodieImage{
+    width: 90px;
+ 
+    
+  }
+
+  .FoodieImg_container{
+    
+    
+  }
+
+  .menubar{
+    padding-left: 180px;
+    }
+    
+    .Foodie_header{
+      margin-left: -90px;
+    }
+
+    .Meal-choice{
+      gap: 10px;
+    }
+
+    .Breakfast_image, 
+      .Vegan_image, 
+      .Meat_image, 
+      .Dessert_image{
+        width: 72px;
+      }
+
+      .Recipes_header_holder{
+      width: 100%;
+      margin-left: -25px;
+    }
+
+    .Recipes_header{
+      font-size: 29px;
+    }
+
+    .Recipes_paragraph{
+      margin-left: -10px;
+      width: 86%;
+    }
+
+    .Chef_section{
+      margin-left: -10px;
+      
+    }
+
+    .Chef_section_header{
+      font-size: 29px;
+      width: 104%;
+      margin-left: 10px;
+    }
+
+    .Chef_section_paragraph{
+      width: 104%;
+      margin-left: 10px;
+    }
+
+    .Chef_section_button{
+      margin-left: 90px;
+    }
+
+    .Chef_section_Image{
+      margin-left: -50px;
+      width: 300px;
+    }
+
+    .Instagram_header{
+      font-size: 26px;
+      margin-left: 20px;
+      width: 86%;
+    }
+
+    .Instagram_paragraph{
+      margin-left: 20px;
+      width: 86%;
+    }
+
+   
+   .Instagram_section_Image{
+      display: grid;
+      place-items: center;
+      margin-left: 0px;
+    }
+
+  .Delicious_recipies_header_holder{
+    margin-left: 0px;
+    
+  }
+
+  .Delicious_recipies_header{
+    font-size: 29px;
+    width: 150%;
+    margin-left: -50px;
+  }
+
+  .Delicious_recipies_paragraph{
+    width: 150%;
+    margin-left: -70px;
+  }
+
+  .Delicious_recipies_Image_holder{
+    margin-left: 30px;
+  }
+
+  .Delicious_sub{
+    margin-left: 25px;
+    width: 87.5%;
+  }
+
+  .Delicious_sub_header{
+   font-size: 23px;
+    margin-left: -155px;
+  }
+
+  .Delicious_sub_paragraph{
+   font-size: 13px;
+    margin-left: -155px;
+    width: 60%;
+  }
+
+  .Delicious_sub_input{
+    width: 295px;
+    margin-left: -155px;
+    
+  }
+
+  .Delicious_sub_button{
+   width: 70px;
+    
+  }
+
+  .Delicious_sub_salad{
+    
+    margin-left: 0px;
+  }
+  
+  .Delicious_sub_eggs_holder{
+    margin-left: 0px;
+  }
+
+  .Delicious_sub_salad_holder{
+    margin-left: 0px;
+  }
+  .Delicious_sub_eggs{
+   
   }
 
 

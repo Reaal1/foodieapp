@@ -81,6 +81,7 @@ const Home = () => {
             <div className='Recipes-Image_container_subs'>
             <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={PotChickenImage} alt="PotChicken-Image" /></div>
             <div className='Recipes-Image_holder'> <img className='Recipes-Image' src={BaconPastaImage} alt="BaconPasta-Image" /></div>
+            <div> <img className='Recipes-Image' src={AdImage} alt="Ad-Image" /></div>
             </div>
            </div>
            <div className='Chef_section_holder'>

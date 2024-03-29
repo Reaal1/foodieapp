@@ -27,6 +27,7 @@ const Navbar = () => {
                 </div>
                 <div className="menubar"> <img src={menuIcon} alt="" className="menu-icon"/></div>
             </nav>
+           
             
             </div>
             
