@@ -599,7 +599,7 @@
 
 /* NavBar Media Queries */
 
-@media screen and (max-width: 1028px){
+/*@media screen and (max-width: 1028px){
 
   .navbar{
     width: 100%;
@@ -625,7 +625,7 @@
 
     /* Home Media Queries */
 
-    .HomeImage_container{
+    /*.HomeImage_container{
       margin-top: 10px;
       
     }
