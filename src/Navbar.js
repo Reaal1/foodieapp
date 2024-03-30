@@ -10,15 +10,15 @@ const Navbar = () => {
         
        < div className='Navbar_holder'>
             <nav className='navbar'>
-                <div className='FoodieImg_container'>
+                <Link to="/" className='FoodieImg_container' >
                <img className='FoodieImage' src={FoodieImg} alt="Foodie-Logo" /> 
-               </div>
+               </Link>
                <div className='links'>
-               <Link to="/">Home</Link>
-                <Link to="/recipes">Recipes</Link>
-                <Link to="/BlogList">Blog</Link>
-                <Link to="/Contact">Contact</Link>
-                <Link to="/About">About us</Link>
+               <Link to="/" className="react-link">Home</Link>
+                <Link to="/recipes" className="react-link">Recipes</Link>
+                <Link to="/BlogList" className="react-link">Blog</Link>
+                <Link to="/Contact" className="react-link">Contact</Link>
+                <Link to="/About" className="react-link">About-us</Link>
                 </div>
                 <div className='socials'>
                <a > <img className='FbImage' src={FbImg} alt="" /> </a>
