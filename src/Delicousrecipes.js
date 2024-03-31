@@ -20,6 +20,7 @@ const DeliciousRecipies = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
                 </p>
                 </div>
+                <div className='Delicious_recipies_container'>
                 <div className='Delicious_recipies_Image_holder'>
                 <div> <img className='Delicious_recipies_Image' src={FruitSalad} alt="Delicious_recipies" /></div>
                 <div> <img className='Delicious_recipies_Image' src={WagyfuBeef} alt="Delicious_recipies1" /></div>
@@ -31,6 +32,7 @@ const DeliciousRecipies = () => {
                 <div> <img className='Delicious_recipies_Image' src={Sandwiches} alt="Delicious_recipies5" /></div>
                 <div> <img className='Delicious_recipies_Image' src={VeganLettuce} alt="Delicious_recipies6" /></div>
                 <div> <img className='Delicious_recipies_Image' src={ChickenRamen} alt="Delicious_recipies7" /></div>
+                </div>
                 </div>
              </div>
      );

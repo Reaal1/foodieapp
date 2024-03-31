@@ -13,7 +13,6 @@
     align-items: center;
      width: 100%;
     border-bottom: 0.1em solid #f2f2f2;
-    border: 3px dashed blue;
     container-type: inline-size;
   }
 
@@ -22,8 +21,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   border: 3px dashed red;
- }
+  }
 
   .navbar-line{
   
@@ -32,7 +30,6 @@
   .FoodieImg_container{
     margin: 0 auto;
     margin-right: 295px;
-    border: 3px dashed orange;
   }
 
    .links {
@@ -43,7 +40,6 @@
     line-height: 19.36px;
     font-weight: 500;
     gap: 1em;
-    border: 3px dashed black;
   }
 
   .navbar a{
@@ -61,7 +57,6 @@
     margin: 0 auto;
     display: flex;
     gap: 30px;
-    border: 3px dashed blue;
     margin-left: 295px;
     }
 
@@ -81,11 +76,15 @@
      display: none;
     }
 
-   
+   .HomeImages_container{
+    container-type:inline;
+    
+   }
 
     .HomeImages_container_Holder{
       display: flex;
       padding-top: 95px;
+     
       }
 
     .HomeImage_container{
@@ -94,32 +93,35 @@
       }
 
   .HomeImage{
-    width: 100%;
+    width: 96%;
     }
 
   .LeftImage_container{
     margin-top: 10px;
     margin-right: 10px;
-   }
+  }
 
  .LeftImage{
-   width: 104%;
+   width: 100%;
    }
 
  .RightImage_container{
   margin-top: 10px;
   margin-left: 10px;
-  }
+   }
 
  .RightImage{
-  width: 105%;
+  width: 100%;
  }
 
  .Foodie_categories{
   margin-top: 70px;
   margin-left: 53px;
   margin-right: 53px;
- }
+  container-type: inline-size;
+  position: relative;
+  z-index: -1;
+  }
  .Foodie_header_holder{
  display: flex;
  justify-content: space-between;
@@ -133,6 +135,7 @@
    font-size: 48px;
    line-height: 58.09px;
    color: black;
+   margin-left:25px;
    }
 
  .Foodie_subheader_body{
@@ -141,7 +144,7 @@
   width: 200px;
   border-radius: 16px;
   text-align: center;
-  
+ margin-right: 25px;
  }
 
  .Foodie_subheader{
@@ -152,12 +155,18 @@
  }
 
  .Meal-choice{
-  gap: 20px;
+  display: flex;
+  margin-left: 20px;
+  gap: 10px;
+  }
+
+ .Meal-choice_image0{
+  gap: 10px;
   display: flex;
  }
 
  .Meal-choice_image1{
-  gap: 20px;
+  gap: 10px;
   display: flex;
  }
 
@@ -168,17 +177,19 @@
  .Breakfast_image ,.Vegan_image, 
  .Meat_image, .Dessert_image,
  .Lunch_image, .Chocolate_image{
-  width: 104%;
+  width: 95%;
  }
 
  .Recipes_section{
   margin-top: 110px;
   margin-left: 40px;
-  
+  container-type:inline-size ;
+  position: relative;
  }
 
  .Recipes_header_holder{
   text-align: center;
+  
  }
 
  .Recipes_header{
@@ -186,6 +197,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 58.09px;
+  
   }
 
  .Recipes_paragraph{
@@ -201,12 +213,15 @@
 
  .Recipes-Image_container{
  margin-top: 50px;
+
  }
 
  .Recipes-Image_container_subs{
   display: flex;
-  gap: 30px;
+  gap: 0px;
   margin-top: 30px;
+  margin-left: 30px;
+  
  }
 
  .Recipes-Image{
@@ -216,9 +231,15 @@
  .Chef_section_holder{
   display: flex;
   margin-top: 150px;
+  margin-left: 20px;
   align-items: center;
-  gap: 130px;
-  margin-right:40px;
+  gap: 100px;
+  container-type: inline-size ;
+
+ }
+
+ .Chef_section{
+ 
  }
 
  .Chef_section_header{
@@ -227,6 +248,8 @@
   font-weight: 600;
   font-size: 41px;
   line-height: 45px;
+ 
+  
   }
 
  .Chef_section_paragraph{
@@ -237,6 +260,7 @@
   font-family: Inter;
   color: #00000099;
   width: 150%;
+
  }
 
  .Chef_section_button{
@@ -258,9 +282,14 @@
  }
 
  .Chef_section_Image_holder{
-  width: 56%;
-  margin-left: 50px;
-  margin-right: 40px;
+  
+  
+  margin-right: 110px;
+  border: 3px dashed orange;
+ }
+
+ .Chef_section_Image{
+  width: 120%;
  }
 
  .Instagram_section_holder{
@@ -268,13 +297,17 @@
   margin-top: 2500px;
   padding-bottom: 50px;
   width: 100%;
+  container-type:inline-size ;
+  position: relative;
+  z-index: -1;
+ 
  }
 
  .Instagram_section_header{
   text-align: center;
+  
  }
-
- .Instagram_header{
+.Instagram_header{
   font-family: Inter;
   font-weight: 600;
   font-size: 45px;
@@ -295,18 +328,17 @@
   display: flex;
   margin-left: 50px;
   margin-top: 50px;
-  gap: 10px;
-
+  
   }
 
  .Instagram_section_post_Image_holder{
   display: flex;
   gap: 20px;
-  
+ 
  }
 
  .Instagram_section_post_Image{
-  width: 95%;
+  width: 80%;
  }
 
  .Instagram_section_button{
@@ -337,14 +369,17 @@
 .Delicious_recipies_holder{
   margin-bottom: 100px;
   margin-left: 10px;
+  container-type: inline-size;
+  position: relative;
+  z-index: -1;
 }
 
 .Delicious_recipies_header_holder{
   display: flex;
   gap: 50px;
   margin-top: 150px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .Delicious_recipies_header{
@@ -368,12 +403,12 @@
 .Delicious_recipies_Image_holder{
   display: flex;
   margin-top: 55px;
-  margin-left: 40px;
-  gap: 10px;
+  margin-left: 50px;
+  
 }
 
 .Delicious_recipies_Image{
-  width: 95%;
+  width: 80%;
 }
 
 .Subscribe_section{
@@ -453,13 +488,14 @@
 .Delicious_sub{
   display: grid;
   place-items: center;
-  width:92.5%;
+  width:88%;
   height: 79vh;
   border-radius: 60px;
   background-color:  #E7F9FD;
-  margin-left: 40px;
   margin-top: 150px;
-  
+  container-type: inline-size;
+  position: relative;
+  z-index: -1;
 }
 
 .Delicious_sub_header{
@@ -526,7 +562,7 @@
 
   .Delicious_sub_salad_holder{
     margin-right: 40px;
-    margin-top:-250px;
+    margin-top:-240px;
   }
 
   .Delicious_sub_salad{
@@ -536,7 +572,7 @@
 
   .Delicious_sub_eggs_holder{
     margin-left: 430px;
-    margin-top: -115px;
+    margin-top: -120px;
     
   }
 
@@ -549,7 +585,7 @@
    margin-top: 150px;
    margin-left: 40px;
    margin-right: 50px;
-   
+   container-type:inline-size ;
   }
 
 .footer_section_container{
@@ -609,6 +645,9 @@
   gap: 50px;
   padding-bottom: 30px;
 }
+
+
+/*NavBar Container*/
 
 @container (max-width: 1272px  ) {
   .FoodieImg_container{
@@ -751,6 +790,33 @@
     margin-left: 150px;
   }
 
+  .Chef_section_holder{
+   
+    gap: 170px;
+    
+   }
+
+   .Chef_section_Image{
+    width: 135%;
+   }
+
+   .Delicious_sub_salad_holder{
+    margin-right: 40px;
+    margin-top:0px;
+  }
+
+ 
+
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: 79px;
+    
+  }
+
+ 
+
+  
+
 }
 
 @container (max-width: 900px  ) {
@@ -776,11 +842,40 @@
 
 @container (max-width: 900px  ) {
   .FoodieImg_container{
-    margin-right: 370px;
+    margin-right: 350px;
   }
 
  .menubar{
-   margin-left: 370px;
+   margin-left: 350px;
+  }
+
+  .Foodie_header{
+    margin-left: 0;
+  }
+
+  .Foodie_subheader_body{
+    margin-right: 0;
+  }
+
+  .Meal-choice_image0{
+    gap: 40px;
+    
+  }
+
+  .Meal-choice{
+    margin-left: 0;
+  }
+
+  .Meal-choice_image1{
+    display: none;
+    
+  }
+
+  .Breakfast_image, 
+  .Vegan_image,
+  .Meat_image,
+  .Dessert_image{
+    width: 100%;
   }
 
 }
@@ -794,6 +889,13 @@
    margin-left: 345px;
   }
 
+  
+
+ 
+.Chef_section_Image{
+    width: 143%;
+   }
+
 }
 
 @container (max-width: 830px  ) {
@@ -804,6 +906,38 @@
  .menubar{
   margin-left: 335px;
   }
+
+  .Recipes-Image_container{
+    margin-right: 10px;
+    
+  }
+
+  .Recipes-Image{
+    width: 117%;
+    margin-left: -30px;
+  }
+
+  .Recipes-Image_container_subs{
+    gap: 50px;
+  }
+
+  .Chef_section_holder{
+    margin-left: 0;
+  }
+
+  .Delicious_sub_salad_holder{
+    margin-right: 40px;
+    margin-top:20px;
+  }
+
+ 
+
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: 80px;
+    
+  }
+  
 
 }
 
@@ -816,6 +950,10 @@
   margin-left: 320px;
   }
 
+  .Chef_section_Image{
+    width: 163%;
+   }
+
 }
 
 @container (max-width: 750px  ) {
@@ -827,6 +965,25 @@
   margin-left: 300px;
   }
 
+  .Chef_section_holder{
+    display: grid;
+  }
+
+  .Chef_section{
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .Chef_section_button{
+    margin-left:529px ;
+  }
+
+  .Chef_section_Image{
+    width: 103%;
+    margin-left: 20px;
+   }
+
+  
 }
 
 
@@ -842,7 +999,7 @@
 }
 
 
-@container (max-width: 720px  ) {
+@container (max-width: 730px  ) {
   .FoodieImg_container{
     margin-right: 280px;
   }
@@ -864,6 +1021,22 @@
   margin-left: 275px;
   }
 
+  .Chef_section{
+    width: 70%;
+  }
+
+  .Delicious_sub_salad_holder{
+    margin-right: 40px;
+    margin-top:35px;
+  }
+
+ 
+
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: 80px;
+    
+  }
 }
 
 
@@ -874,6 +1047,18 @@
 
  .menubar{
   margin-left: 269px;
+  }
+
+  .Chef_section{
+    width: 62%;
+  }
+
+  .Chef_section_button{
+    margin-left: 500px;
+  }
+
+  .Chef_section_Image{
+    margin-left: 15px;
   }
 
 }
@@ -909,8 +1094,30 @@
   margin-left: 235px;
   }
 
+  .Delicious_sub_header{
+    font-size: 30px;
+  }
+
 }
 
+@container (max-width: 625px  ) {
+  .Delicious_sub_salad_holder{
+    margin-right: 40px;
+    margin-top:55px;
+  }
+
+ 
+
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: 80px;
+    
+  }
+  
+
+}
+
+ 
 @container (max-width: 605px  ) {
   .FoodieImg_container{
     margin-right: 225px;
@@ -920,6 +1127,71 @@
   margin-left: 225px;
   }
 
+  .Chef_section{
+    width: 60%;
+  }
+
+  .Chef_section_button{
+    
+  
+  }
+
+  
+  .Chef_section_Image{
+    margin-left: 30px;
+  }
+
+  .Instagram_section_Image{
+    display: block;
+  }
+
+  .Delicious_recipies_Image_holder{
+    display: grid;
+    margin-left: 0;
+  }
+
+  .Delicious_sub_salad{
+    width: 50px;
+  }
+
+  .Delicious_sub_eggs{
+    width: 50px;
+  }
+
+  .Delicious_sub_header{
+    font-size: 40px;
+  }
+
+  .Delicious_recipies_Image{
+    width: 100%;
+   
+  }
+
+  .Delicious_sub_salad_holder{
+    margin-right: 40px;
+    margin-top:35px;
+  }
+
+ 
+
+  .Delicious_sub_eggs_holder{
+    margin-left: 430px;
+    margin-top: 80px;
+    
+  }
+
+ /* .Delicious_recipies_container{
+    display: grid;
+  }*/
+
+}
+
+
+@container (max-width: 690px  ) {
+  .Chef_section_button{
+    margin-left: 430px;
+  
+  }
 }
 
 @container (max-width: 587px  ) {
@@ -931,7 +1203,23 @@
   margin-left: 212px;
   }
 
+  .Chef_section_button{
+    margin-left: 380px;
+  }
+
+  
+  .Chef_section_Image{
+    margin-left: 30px;
+  }
+
 }
+
+@container (max-width: 567px  ) {
+  .Delicious_sub_salad, .Delicious_sub_eggs{
+    display: none;
+  }
+}
+
 
 @container (max-width: 557px  ) {
   .FoodieImg_container{
@@ -942,18 +1230,115 @@
   margin-left: 202px;
   }
 
+  .Chef_section_button{
+    margin-left: 360px;
+  }
+
+  .Chef_section_holder{
+    margin-left: 12px;
+  }
+
+  .Recipes-Image_container_subs{
+    margin-left: 40px;
+    
+  }
+
+  .Recipes-Image{
+    width: 130%;
+  }
+
+  .Delicious_sub_header{
+    font-size: 30px;
+  }
+
+  .Delicious_sub_paragraph{
+    font-size: 12px;
+  }
+
+ 
 }
+
+@container (max-width: 537px  ) {
+  .Delicious_sub_header{
+    font-size: 30px;
+  }
+}
+
+
+
 
 @container (max-width: 527px  ) {
   .FoodieImg_container{
-    margin-right: 177px;
+    margin-right: 200px;
   }
 
  .menubar{
-  margin-left: 177px;
+  margin-left: 200px;
   }
 
+  .Foodie_subheader_body{
+    display: none;
+  }
+
+  .Foodie_header{
+    margin: 0 auto;
+  }
+
+  .Breakfast_image, 
+  .Vegan_image,
+  .Meat_image,
+  .Dessert_image{
+    width: 105%;
+  }
+
+  .Chef_section_button{
+    margin-left: 366px;
+    width: 155px;
+  }
+
+  .Chef_section_holder{
+    
+  }
+
+.Delicious_recipies_Image{
+  width: 150px;
 }
+
+
+
+}
+
+@container (max-width: 515px  ) {
+
+  .Chef_section_button{
+    margin-left: 366px;
+    width: 140px;
+  }
+
+  
+}
+
+@container (max-width: 510px  ) {
+
+  .Chef_section_button{
+    margin-left: 366px;
+    width: 130px;
+  }
+
+  
+}
+
+@container (max-width: 500px  ) {
+
+  .Chef_section_button{
+    margin-left: 366px;
+    width: 120px;
+  }
+
+  
+}
+
+
 
 @container (max-width: 497px  ) {
   .FoodieImg_container{
@@ -964,7 +1349,42 @@
   margin-left: 165px;
   }
 
+  .Chef_section_button{
+    margin-left: 366px;
+    width: 120px;
+  }
+
+  .Delicious_sub_input{
+    width: 85%;
+  }
+
+  .Delicious_sub_button{
+   width: 100px;
+  }
+
 }
+
+@container (max-width: 490px){
+  .Chef_section_button{
+    margin-left: 366px;
+    width: 100px;
+  }
+}
+
+@container (max-width: 480px){
+  .Chef_section_button{
+    margin-left: 356px;
+    width: 110px;
+  }
+
+  .Delicious_recipies_header_holder{
+    display: block;
+  }
+}
+
+
+
+
 
 @container (max-width: 467px  ) {
   .FoodieImg_container{
@@ -975,7 +1395,64 @@
   margin-left: 150px;
   }
 
+  .Chef_section_button{
+    margin-left: 346px;
+    width: 110px;
+  }
+
+ 
 }
+
+@container (max-width: 457px  ) {
+  
+  .Chef_section_button{
+    margin-left: 332px;
+    width: 110px;
+  }
+
+ 
+}
+
+@container (max-width: 447px  ) {
+  
+  .Chef_section_button{
+    margin-left: 330px;
+    width: 110px;
+  }
+
+  
+}
+
+@container (max-width: 440px  ) {
+  
+  .Chef_section_button{
+    margin-left: 330px;
+    width: 100px;
+  }
+  .Delicious_sub_header{
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .Delicious_sub_paragraph{
+    font-size: 10px;
+    margin-left: 50px;
+  }
+
+  .Delicious_sub_input{
+    width: 85%;
+    margin-left: 20px;
+  }
+  
+
+  .Delicious_sub_button{
+    width: 90px;
+  }
+  
+}
+
+
+
 
 @container (max-width: 437px  ) {
   .FoodieImg_container{
@@ -985,6 +1462,41 @@
  .menubar{
   margin-left: 150px;
   }
+
+  .Chef_section_button{
+    margin-left: 320px;
+    width: 100px;
+  }
+
+  
+
+}
+
+@container (max-width: 430px){
+  .Chef_section_button{
+    margin-left: 310px;
+    width: 100px;
+  }
+
+  .Delicious_sub_input{
+    width: 85%;
+    margin-left: 10px;
+  }
+  
+}
+
+@container (max-width: 420px){
+  .Chef_section_button{
+    margin-left: 300px;
+    width: 100px;
+  }
+
+  .Delicious_sub_input{
+    width: 83%;
+    margin-left: 13px;
+  }
+  
+  
 
 }
 
@@ -997,6 +1509,39 @@
   margin-left: 145px;
   }
 
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 35px;
+  }
+
+
+  .Delicious_sub_input{
+    width: 83%;
+    margin-left: 9px;
+  }
+
+
+}
+
+@container (max-width: 399px  ) {
+  .Delicious_sub_input{
+    width: 80%;
+    margin-left: 5px;
+  }
+
+  .Delicious_sub_input_email, .Delicious_sub_button{
+    font-size: 10px;
+  }
+}
+
+@container (max-width: 389px  ) {
+  .Delicious_sub_input{
+    width: 75%;
+    margin-left: 13px;
+  }
+
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 24px;
+  }
 }
 
 @container (max-width: 380px  ) {
@@ -1008,18 +1553,162 @@
   margin-left: 130px;
   }
 
+  .Meal-choice{
+    
+  }
+
+  .Meal-choice_image0{
+    gap: 15px;
+  }
+
+  .Breakfast_image, 
+  .Vegan_image,
+  .Meat_image,
+  .Dessert_image{
+    width: 110%;
+  }
+
+  .Chef_section_button{
+    margin-left: 270px;
+    width: 100px;
+  }
+
+  i
+
+
+}
+
+@container (max-width: 360px){
+  .Chef_section_button{
+    margin-left: 260px;
+    width: 100px;
+  }
 }
 
 @container (max-width: 350px  ) {
   .FoodieImg_container{
-    margin-right: 15px;
+    margin-right: 120px;
   }
 
  .menubar{
-  margin-left: 135px;
+  margin-left: 120px;
+  }
+
+  .Chef_section_button{
+    margin-left: 250px;
+    width: 100px;
   }
 
 }
+
+@container (max-width: 330px  ) {
+  .FoodieImg_container{
+    margin-right: 110px;
+  }
+
+ .menubar{
+  margin-left: 110px;
+  }
+
+
+
+  .Chef_section_button{
+    margin-left: 240px;
+    width: 100px;
+  }
+
+ 
+
+}
+
+@container (max-width: 320px ){
+  
+  
+  .Chef_section_button{
+    margin-left: 220px;
+    width: 100px;
+  }
+
+}
+
+@container (max-width: 300px  ) {
+  .FoodieImg_container{
+    margin-right: 110px;
+  }
+
+ .menubar{
+  margin-left: 0px;
+  }
+
+  .Foodie_header{
+    margin-left: -30px;
+  }
+
+  .Recipes-Image_container_subs{
+   display: block;
+   margin-left: 0;
+ 
+  }
+
+  .Chef_section_holder{
+    display: none;
+    
+  }
+
+
+
+  .Chef_section_button{
+    margin-left: 180px;
+    width: 100px;
+  }
+
+  .Chef_section_Image{
+    margin-left: -5px;
+    width: 150%;
+  }
+
+  .Chef_section_header{
+    font-size: 30px;
+  }
+
+
+
+  .Instagram_section_header{
+    margin-top: 100px;
+    
+  }
+
+  .Instagram_header{
+    font-size: 20px;
+    
+  }
+
+  .Instagram_section_Image{
+    display: grid;
+    
+  }
+
+  .Instagram_section_post_Image_holder{
+    display: grid;
+    
+  }
+
+  .Delicious_recipies_Image{
+    width: 96%;
+  }
+}
+
+
+/*Home Container*/
+
+
+@container (max-width: 900px  ) {
+
+
+
+
+}
+
 
 
 

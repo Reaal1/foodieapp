@@ -30,7 +30,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div className='HomeImages_container'>
         <div className='HomeImages_container_Holder'>
            
             <div className='LeftImage_container'>
@@ -51,10 +51,12 @@ const Home = () => {
              </div>
              </div>
              <div className='Meal-choice'>
+             <div className='Meal-choice_image0'>
             <div className='Meal-choice_image'> <img className='Breakfast_image' src={BreakFast} alt="Breakfast" /></div> 
             <div className='Meal-choice_image'>  <img className='Vegan_image'  src={Vegan} alt="Vegan" /></div> 
             <div className='Meal-choice_image'> <img className='Meat_image' src={Meat} alt="Meat" /></div> 
             <div className='Meal-choice_image'> <img className='Dessert_image' src={Dessert} alt="Dessert" /></div> 
+            </div>
             <div className='Meal-choice_image1'>
             <div className='Meal-choice_image'> <img className='Lunch_image' src={Lunch} alt="Lunch" /></div> 
             <div className='Meal-choice_image'> <img className='Chocolate_image' src={Chocolate} alt="Chocolate" /></div> 
