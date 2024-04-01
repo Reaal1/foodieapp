@@ -9,7 +9,7 @@
   .Navbar_holder{
     position: fixed;
     padding: 1.6em 3em 1.6em 3em;
-    background-color: white;
+    background-color: red;
     align-items: center;
      width: 100%;
     border-bottom: 0.1em solid #f2f2f2;
@@ -1573,6 +1573,28 @@
     width: 100px;
   }
 
+  .Delicious_sub_input{
+    width: 73.5%;
+    margin-left: 12px;
+  }
+
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 21px;
+    
+  }
+
+}
+
+@container (max-width: 378px){ 
+  .Delicious_sub_input{
+    width: 70.5%;
+    margin-left: 12px;
+  }
+
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 12px;
+    
+  }
 }
 
 @container (max-width: 360px){
@@ -1580,6 +1602,31 @@
     margin-left: 260px;
     width: 100px;
   }
+
+  .Delicious_sub_input{
+    width: 67.5%;
+    margin-left: 8.5px;
+  }
+
+  .Delicious_sub_header{
+    font-size: 20px;
+    margin-left: 35px;
+  } 
+  
+  .Delicious_sub_paragraph{
+    font-size: 8px;
+    font-weight: bolder;
+    margin-left: 35px;
+    
+  }
+
+  .Delicious_sub_input_email{
+    font-size: 8px;
+    font-weight: bolder;
+  }
+
+  
+  
 }
 
 @container (max-width: 350px  ) {
@@ -1596,6 +1643,15 @@
     width: 100px;
   }
 
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 20px;
+  }
+
+  .Delicious_sub_input{
+    width: 62.5%;
+    margin-left: 7px;
+  }
+  
 }
 
 @container (max-width: 330px  ) {
@@ -1614,9 +1670,15 @@
     width: 100px;
   }
 
+
+  
+
+ 
+  
+}
  
 
-}
+
 
 @container (max-width: 320px ){
   
@@ -1625,6 +1687,8 @@
     margin-left: 220px;
     width: 100px;
   }
+
+  
 
 }
 
@@ -1693,6 +1757,107 @@
   .Delicious_recipies_Image{
     width: 96%;
   }
+
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 15px;
+  }
+
+  .Delicious_sub_input{
+    width: 60.5%;
+  }
+
+  .Delicious_sub_button{
+    width: 60px;
+    font-size: 8px;
+  }
+  
+
+  
+}
+
+@container (max-width: 299px  ) {
+  .Delicious_sub_header, .Delicious_sub_paragraph{
+    margin-left: 10px;
+  }
+
+  .Delicious_sub_input{
+    width: 58.5%;
+  }
+
+  .Delicious_sub_button{
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 8px;
+  }
+  
+  
+}
+
+@container (max-width: 292px  ) {
+  .Delicious_sub_header{
+    font-size: 19.5px;
+  }
+  
+  .Delicious_sub_paragraph{
+    font-size: 7.9px;
+  }
+
+  .Delicious_sub_input{
+    width: 57.1%;
+  }
+
+  .Delicious_sub_button{
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+}
+
+@container (max-width: 289px  ) {
+  .Delicious_sub_header{
+    font-size: 18.8px;
+  }
+  
+  .Delicious_sub_paragraph{
+    font-size: 7.5px;
+  }
+
+  .Delicious_sub_input{
+    width: 55.1%;
+  }
+
+  .Delicious_sub_button{
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+}
+
+@container (max-width: 289px  ) {
+  .Delicious_sub_header{
+    font-size: 18px;
+  }
+  
+  .Delicious_sub_paragraph{
+    font-size: 7px;
+  }
+
+  .Delicious_sub_input{
+    width: 53.5%;
+  }
+
+  .Delicious_sub_button{
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 8px;
+  }
+
 }
 
 
