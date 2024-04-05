@@ -12,7 +12,7 @@ const Footer = () => {
 
         <footer className='footer_section'>
                 <div className='footer_section_container'>
-                <div><img className='footer_section_Image' src={Foodieland2} alt="Foodie_logo" />
+                <div className='footer_section_Image_holder'><img className='footer_section_Image' src={Foodieland2} alt="Foodie_logo" />
                 <p className='footer_section_paragraph'>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
                 </div>
                 <div className='footer_section_links'>

@@ -11,6 +11,7 @@ import  About from './About';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -35,6 +36,7 @@ function App() {
       <Route path="/About">
          <About />
       </Route>
+      
        </Switch>
     </div>
     </Router>

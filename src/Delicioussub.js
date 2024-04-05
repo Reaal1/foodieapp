@@ -12,7 +12,7 @@ const  DeliciousSub= () => {
                     <div className='Delicious_sub_input'>
                         <div className='Delicious_sub_input_holder'>
                         <p className='Delicious_sub_input_email'>Your email address...</p>
-                        <div className='Delicious_sub_button' >
+                        <div className='Delicious_sub_button1' >
                         <button className='Delicious_sub_button'>Subscribe</button>
                     </div>
                     </div>

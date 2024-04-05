@@ -17,12 +17,12 @@ const About = () => {
         <div className='About_us_Chef_section_Image_holder'>
         <img className='About_us_Chef_section_Image' src={Chef} alt="Chef-Image" />
         </div>
-        <p className='About_us_section_paragraph2'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam voluptates maxime quod, sint fuga iure delectus quis minus impedit architecto ea voluptas vel nostrum vero officiis eligendi. Soluta amet dolor, a odit tempore, nemo veritatis tenetur alias blanditiis sunt aliquid? Aut aliquam eaque ea porro? Eum nesciunt sed exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam repellendus distinctio vel, consequuntur adipisci magni nam nobis quasi itaque error.</p>
+        <p className='About_us_section_paragraph2'> Lorem ipsum or,itationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam repellendus distinctio vel, consequuntur adipisci magni nam nobis quasi itaque </p>
         </div>
         
         <div className='About_us_objective_section'>
             <div className='About_us_objective'>
-           <h3 className='About_us_objective_header'> Our Objectives </h3>
+           <p className='About_us_objective_header'> Our Objectives </p>
            <p className='About_us_objective_paragraph'>Lorem ipsum dolor sit.</p>
            <p className='About_us_objective_paragraph1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum optio sequi error, ducimus culpa rerum voluptate exercitationem soluta magnam fugiat, ad quidem. Et, aliquam obcaecati. Ut, ad. Modi tenetur fugit ducimus et laborum est quos possimus cupiditate expedita exercitationem eligendi quasi nihil quas, porro eum delectus sunt. Magni, praesentium.</p>
         </div>
