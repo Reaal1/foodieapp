@@ -6,6 +6,17 @@ import menuIcon from './Assets/menubar.svg';
 import { Link } from 'react-router-dom';
 import React from 'react';
 const Navbar = () => {
+       /* var hamburger = document.querySelector(".menubar");
+    const navMenu = document.querySelector(".links");
+    hamburger.addEventListener("click",() =>{
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".react-link").forEach(n => n.addEventListener("click",()=>{
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+}));*/
     return ( 
         
        < div className='Navbar_holder'>
