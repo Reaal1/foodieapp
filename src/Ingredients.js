@@ -28,6 +28,7 @@ const Ingredients = () => {
         <div className='Ingredients_lower_section__recipes_author'>
         <p className='Ingredients_lower_paragraph'>The Best Easy One Pot Chicken and Rice</p>
         <p className='Ingredients_lower_paragraph_author'>By Andreas Paula</p>
+        
         </div>
         </div>
         <div className='Advert-section'>
