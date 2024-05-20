@@ -165,11 +165,8 @@
   display: flex;
  }
 
- .Meal-choice_image{
-  
- }
 
- .Breakfast_image ,.Vegan_image, 
+.Breakfast_image ,.Vegan_image, 
  .Meat_image, .Dessert_image,
  .Lunch_image, .Chocolate_image{
   width: 95%;

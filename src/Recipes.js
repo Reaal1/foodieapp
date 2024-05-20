@@ -15,9 +15,13 @@ import Footer from './Footer';
 
 
 
+
+
 const Recipes = () => {
-    return (
-     <div className='Recipes_section'>
+    return ( 
+        
+     <div className='Recipes_section1'>
+        <div className='Recipes_section_header_holder'>
         <h1 className='Recipes_section_header'>Recipes Header</h1>
         <div className='Recipes_section_menu'>
         <div className='Recipes_section_menu_sub'>
@@ -29,15 +33,15 @@ const Recipes = () => {
             </div >
             </div>
             <hr className='Recipes_submenu_sub_line'></hr>
-            <div className='Recipes_submenu_sub_holder'>
-            <div>  <img  src={TimeEllipse} alt="Time-Image" /> </div>
+            <div className='Recipes_submenu_sub_holder1'>
+            <div className='Recipes_submenu_time'>  <img  src={TimeEllipse} alt="Time-Image" /> </div>
             <div className='Recipes_submenu_etas'>
             <p className='Recipes_submenu_name'>PREP TIME</p>
             <p className='Recipes_submenu_sub_time'>15 Minutes</p>
             </div>
             </div>
             <hr className='Recipes_submenu_sub_line'></hr>
-            <div className='Recipes_submenu_sub_holder'>
+            <div className='Recipes_submenu_sub_holder2'>
             <div><img className='Recipes_submenu_sub_holder-Image' src={TimeEllipse1} alt="Time-Image" /></div>
             <div className='Recipes_submenu_etas'>
             <p className='Recipes_submenu_name'>COOK TIME</p>
@@ -45,7 +49,7 @@ const Recipes = () => {
             </div>
             </div>
             <hr className='Recipes_submenu_sub_line'></hr>
-            <div className='Recipes_submenu_sub_holder'>
+            <div className='Recipes_submenu_sub_holder3'>
             <div><img className='Recipes_submenu_sub_holder-Image' src={CutleryEllipse} alt="cutlery-Image" /></div>
             <div className='Recipes_submenu_sub_holder'>
             <p>Chicken</p>
@@ -98,12 +102,13 @@ const Recipes = () => {
                 </div>
                 <hr  className='Nutrition_section_sub_lines'/>
                 <p className='Nutrition_section_sub_paragraph1' >adipiscing elit, sed do eiusmod tempor incididunt
-                     ut labore et dolore magna aliqua.</p>
+                     ut labore et dolore magna.</p>
                  </div>
         </div>
         <div className='Nutrition_section_sub_end_paragraph'>
-            <p className='Nutrition_section_sub_end_paragraph1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            <p className='Nutrition_section_sub_end_paragraph2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
         </div>
         <div className='Ingredients_section'>
             <div className='Ingredients_section_content'>
@@ -174,6 +179,7 @@ const Recipes = () => {
             <Ingredients/>
             
         </div>
+        <div className='Direction-section1'>
         <div className='Direction-section_holder'>
         <p className='Directions-header'>Directions</p>
         </div>
@@ -182,7 +188,7 @@ const Recipes = () => {
                 <li className='Direction-section_paragraph'><p className='Direction-section_paragraph_content'>Lorem ipsum dolor sit amet</p>
                 <div className='Direction-section_paragraph_container'>
                 <p className='Direction-section_ol_paragraph'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                 <div className='Direction-section_ol_image_holder'><img className='Direction-section_ol_image' src={LadyImage}  alt="Lady" /></div>
+                 <div className='Direction-section_ol_image_holder'><img className='Direction-section_ol_imag' src={LadyImage}  alt="Lady" /></div>
                 <p className='Direction-section_ol_paragraph'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                 </div>
                 </li>
@@ -200,12 +206,17 @@ const Recipes = () => {
                 </li>
                 <hr className='Direction-section_ol_line'/>
             </ol>
-            
+            </div>
         </div>
         <DeliciousSub/>
         <DeliciousRecipies/>
         <Footer/>
-     </div>
+    </div>
+
+   
+
+   
+    
 
       );
 }
